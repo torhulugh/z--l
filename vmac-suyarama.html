@@ -1,18 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vmac Suyarama assets</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="css/library.css">
-    <link rel="stylesheet" href="css/vmac-color-variant-cards.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library category: Overlay</title>
+    <script src="Javascript/script.js"></script>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-png">
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/library.css" />
+    <link rel="stylesheet" href="css/vmac-color-variant-cards.css" />
+    <link rel="stylesheet" href="css/library-mobile-menu.css" />
+  </head>
+  <script src="script.js"></script>
+  
+
+  <body>
+    <header>
+      <nav id="mainNav">
+        <a href="index.html">
+          <img
+            id="siteLogo"
+            src="icn/vmac-icon.png"
+            alt="vmac website navigation logo"
+        /></a>
+
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="library-overlay.html">Library</a></li>
+          <li><a href="tutorials.html">Tutorials</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- mobile header menu  -->
+    <nav id="mobile-header-menu">
+      <a href="/"><img id="siteLogoMobile" src="icn/vmac-icon.png" alt="vmac website navigation logo"></a>
+      <div id="mobile-menu-btn">
+        <img id="mobile-menu-icon" src="icn/mobile-menu.svg" alt="menu open button">
+      </div>
+      <div id="mobile-menu-close-btn">
+        <img id="mobile-menu-close-icon" src="icn/close.svg" alt="menu close button">
+      </div>
+      <ul id="mobileMenuOptions">
+        <li><a href="/">Home</a></li>
+        <li><a href="library-overlay.html">Library</a></li>
+        <li><a href="tutorials.html">Tutorials</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+      </ul>
+    </nav>
+    
+    <!-- Pop up -->
+    <div id="popUp">
+      <div id="optionBox">
+        <img src="icn/x icon.svg" alt="" id="popUpX" />
+        <a
+          href="https://apps.apple.com/us/app/overlay-video-image-layers/id1497119502"
+          ><div class="options">
+            <p>Download free editor for iPhone</p>
+            <img
+              class="pointingArrow"
+              src="icn/pointing arrow.svg"
+              alt=""
+            /></div
+        ></a>
+        <a
+          href="https://play.google.com/store/apps/details?id=com.bongasoft.overlayvideoimage&hl=en_CA&pli=1"
+          ><div class="options">
+            <p>Download free editor for Android</p>
+            <img
+              class="pointingArrow"
+              src="icn/pointing arrow.svg"
+              alt=""
+            /></div
+        ></a>
+        <a href="https://www.photopea.com/"
+          ><div class="options">
+            <p>Use an online free editor tool.....</p>
+            <img
+              class="pointingArrow"
+              src="icn/pointing arrow.svg"
+              alt=""
+            /></div
+        ></a>
+      </div>
+    </div>
+    <!--navgation menu -->
+    
+
+    <!-- main -->
     <main>
       <!-- library menu  -->
       <section id="library--content--container">
-        
+        <section id="library--menu--section">
+          <div id="library-menu-container">
+            <!--   Labels menu option -->
+            <!-- This menu option container contains element for a signle menu option -->
+            <div class="menu-option-container">
+              <a class="menu-category-link">
+                <img
+                  class="menu-selector-txtholder"
+                  src="icn/menu-selection-icn.svg"
+                  alt=""
+                />
+                <div class="menu-category-container">
+                  <img class="menu-icn" src="icn/txt-holder-icn.png" alt="" />
+                  <p class="menu-category-name">Labels</p>
+                </div>
+              </a>
+            </div>
+            <!-- frames menu option -->
+            <!-- This menu option container contains element for a signle menu option -->
+            <div class="menu-option-container">
+              <a class="menu-category-link">
+                <img
+                  class="menu-selector-overlay"
+                  src="icn/menu-selection-icn.svg"
+                  alt=""
+                />
+                <div class="menu-category-container">
+                  <img class="menu-icn" src="icn/overlay-icn.png" alt="" />
+                  <p class="menu-category-name">Frames</p>
+                </div>
+              </a>
+            </div>
+            <!--  Scenes menu option -->
+            <!-- This menu option container contains element for a signle menu option -->
+            <div class="menu-option-container">
+              <a class="menu-category-link">
+                <img
+                  class="menu-selector-backgrounds"
+                  src="icn/menu-selection-icn.svg"
+                  alt=""
+                />
+                <div class="menu-category-container">
+                  <img class="menu-icn" src="icn/background-icn.png" alt="" />
+                  <p class="menu-category-name">Scenes</p>
+                </div>
+              </a>
+            </div>
+            <!-- meme maker menu option -->
+            <!-- This menu option container contains element for a signle menu option -->
+            <div class="menu-option-container">
+              <a class="menu-category-link">
+                <img
+                  class="menu-selector-meme"
+                  src="icn/menu-selection-icn.svg"
+                  alt=""
+                />
+                <div class="menu-category-container">
+                  <img class="menu-icn" src="icn/meme-maker-icn.png" alt="" />
+                  <p class="menu-category-name">Memer</p>
+                </div>
+              </a>
+            </div>
+            <!-- decorative menu option -->
+            <!-- This menu option container contains element for a signle menu option -->
+            <div class="menu-option-container">
+              <a class="menu-category-link">
+                <img
+                  class="menu-selector-deco"
+                  src="icn/menu-selection-icn.svg"
+                  alt=""
+                />
+                <div class="menu-category-container">
+                  <img
+                    class="menu-icn"
+                    src="icn/deco-icn.png"
+                    alt="icon for decorative assets"
+                  />
+                  <p class="menu-category-name">Charms</p>
+                </div>
+              </a>
+            </div>
+            <!--  notes menu option -->
+            <!-- This menu option container contains element for a signle menu option -->
+            <div class="menu-option-container">
+              <a class="menu-category-link">
+                <img
+                  class="menu-selector-notes"
+                  src="icn/menu-selection-icn.svg"
+                  alt=""
+                />
+                <div class="menu-category-container">
+                  <img
+                    class="menu-icn"
+                    src="icn/notes.png"
+                    alt="icon for notes"
+                  />
+                  <p class="menu-category-name">Notes</p>
+                </div>
+              </a>
+            </div>
+            <!-- icons menu option  -->
+            <!-- This menu option container contains element for a signle menu option -->
+            <div class="menu-option-container">
+              <a class="menu-category-link">
+                <img
+                  class="menu-selector-icons"
+                  src="icn/menu-selection-icn.svg"
+                  alt=""
+                />
+                <div class="menu-category-container">
+                  <img class="menu-icn" src="icn/icons-icn.png" alt="" />
+                  <p class="menu-category-name">Icons</p>
+                </div>
+              </a>
+            </div>
+            <!-- shapes menu option  -->
+            <!-- This menu option container contains element for a signle menu option -->
+            <div class="menu-option-container">
+              <a class="menu-category-link">
+                <img
+                  class="menu-selector-shapes"
+                  src="icn/menu-selection-icn.svg"
+                  alt=""
+                />
+                <div class="menu-category-container">
+                  <img class="menu-icn" src="icn/Shapes.png" alt="" />
+                  <p class="menu-category-name">Shapes</p>
+                </div>
+              </a>
+            </div>
+            <!-- 🍇🍇  -->
+          </div>
+        </section>
 
         <section id="library--body">
           <!-- ================= Library assets container ================================= -->
@@ -28,49 +245,49 @@
             <div class="vmac-color-variant-card-header">
                 <img src="/icn/expand-icn.svg" alt="" id="expand-icon">
                 <div class="asset-name-container">
-                    <p class="asset-name">El cut</p>
+                    <p class="asset-name">square</p>
                 </div>
                 <img src="/icn/folder-download-icn.svg" alt="" id="downloadFolder-icon">
             </div>
         <!-- 🍇 -->
           <div class="assetHolder">
             <img
-              src="library assets/OVERLAY/EL cut/l cut square red.png"
+              src="library-assets/suyarama/orange.png"
               alt=""
               class="i1"
             />
             <img
-              src="library assets/OVERLAY/EL cut/l cut square green.png"
+              src="library-assets/suyarama/purple.png"
               alt=""
               class="i2"
             />
             <img
-              src="library assets/OVERLAY/EL cut/l cut square brown.png"
+              src="library-assets/suyarama/green.png"
               alt=""
               class="i3"
             />
             <img
-              src="library assets/OVERLAY/EL cut/l cut square yellow.png"
+              src="library-assets/suyarama/cream.png"
               alt=""
               class="i4"
             />
             <img
-              src="library assets/OVERLAY/EL cut/l cut square pink.png"
+              src="library-assets/suyarama/orange-p.png"
               alt=""
               class="i5"
             />
             <img
-              src="library assets/OVERLAY/EL cut/l cut square blue.png"
+              src="library-assets/suyarama/purple-p.png"
               alt=""
               class="i6"
             />
             <img
-              src="library assets/OVERLAY/EL cut/l cut smoke black.png"
+              src="library-assets/suyarama/green-p.png"
               alt=""
               class="i7"
             />
             <img
-              src="library assets/OVERLAY/EL cut/l cut square light purple.png"
+              src="library-assets/suyarama/cream-p.png"
               alt=""
               class="i8"
             />
@@ -150,7 +367,402 @@
           </div>
         <!-- xxxxxxxxxxxxxxxxx  card 1 ends here   xxxxxxxxxxxxxxxxxxxxx -->
             <!-- ----  empty-cards  --- -->
+        <!-- >>>>>>>>>>>>>>>>> card 2  starts here <<<<<<<<<<<<<<<<<<<< -->
+          <div class="vmac-color-variant-card">
+            <!-- ------------------card content container------------------------------- -->
+            <div class="vmac-color-variant-card-body ">
+
+              <!-- --------------------------- image assets ----------------------------------------->
+        <div class="thumb-nail-img-background">
+            <!-- header -->
+            <div class="vmac-color-variant-card-header">
+                <img src="/icn/expand-icn.svg" alt="" id="expand-icon">
+                <div class="asset-name-container">
+                    <p class="asset-name">Rectangle</p>
+                </div>
+                <img src="/icn/folder-download-icn.svg" alt="" id="downloadFolder-icon">
+            </div>
+        <!-- 🍇 -->
+          <div class="assetHolder">
+            <img
+              src="library-assets/suyarama/orange-t.png"
+              alt=""
+              class="i1"
+            />
+            <img
+              src="library-assets/suyarama/purple-t.png"
+              alt=""
+              class="i2"
+            />
+            <img
+              src="library-assets/suyarama/green-t.png"
+              alt=""
+              class="i3"
+            />
+            <img
+              src="library-assets/suyarama/cream-t.png"
+              alt=""
+              class="i4"
+            />
+            <img
+              src="library-assets/suyarama/orange-tp.png"
+              alt=""
+              class="i5"
+            />
+            <img
+              src="library-assets/suyarama/purple-tp.png"
+              alt=""
+              class="i6"
+            />
+            <img
+              src="library-assets/suyarama/green-tp.png"
+              alt=""
+              class="i7"
+            />
+            <img
+              src="library-assets/suyarama/cream-tp.png"
+              alt=""
+              class="i8"
+            />
+          </div>
+        </div>
+
+        <!-- -----------------------More options---------------------- -->
+        <div class="vmc-color-variant-card-more--options">
+            <p class="color-options-txt">Color options</p>
+        </div>
+        <!-- -----------------------Color options---------------------- -->
+        <div class="color-choices-container">
+          <div class="onred"></div>
+          <div class="ongreen"></div>
+          <div class="onbrown"></div>
+          <div class="onyellow"></div>
+          <div class="onpink"></div>
+          <div class="onblue"></div>
+          <div class="onblack"></div>
+          <div class="onwhite"></div>
+          <!-- -----------------------Color choice indicator---------------------- -->
+          <div class="color-choices-indicator">
+            <div class="stred"></div>
+            <div class="stgreen"></div>
+            <div class="stbrown"></div>
+            <div class="styellow"></div>
+            <div class="stpink"></div>
+            <div class="stblue"></div>
+            <div class="stblack"></div>
+            <div class="stwhite"></div>
+          </div>
+        </div>
         
+        <!-- ------------------------ Action buttons---------------- -->
+        <div class="action-buttons">
+            <!-- 🍇 -->
+            <div class="download--btn--container">
+              <div class="downloadBtn">
+                <img class="a1" src="icn/download-icn.svg" alt="" />
+              </div>
+              <p>Download</p>
+            </div>
+            <!-- 🍇 -->
+            <div class="editor--btn--container">
+              <div class="editorBtn">
+                <img class="a2" src="icn/editor-icn.svg" alt="" />
+              </div>
+              <p>Editor</p>
+            </div>
+            <!-- 🍇 -->
+            <div class="youtube--btn--container">
+              <div class="youtubeBtn">
+                <a href="https://www.youtube.com/watch?v=xsaiG3p-IrI">
+                  <img
+                    class="a3"
+                    src="icn/youtube-icn.svg"
+                    alt="youtube button clicke to watch tutorial on how to use asset"
+                  /> 
+                </a>
+              </div>
+              <p>Tutorial</p>
+            </div>
+              <!-- 🍇 -->
+              <div class="share--btn--container">
+                  <div class="shareBtn">
+                      <img class="a4" src="icn/share-icn.png" alt="share button" />
+                  </div>
+                  <p>Share</p>
+              </div>
+              <!-- 🍇 -->
+          </div>
+          
+        </div>
+        <!-- --------------------Card edge blur effect----------------------- -->
+        <div class="vmacColorVariantCard-edge-blur-effect"></div>
+            </div>
+          </div>
+        <!-- xxxxxxxxxxxxxxxxx  card 2 ends here   xxxxxxxxxxxxxxxxxxxxx -->
+        <!-- >>>>>>>>>>>>>>>>> card 3  starts here <<<<<<<<<<<<<<<<<<<< -->
+          <div class="vmac-color-variant-card">
+            <!-- ------------------card content container------------------------------- -->
+            <div class="vmac-color-variant-card-body ">
+
+              <!-- --------------------------- image assets ----------------------------------------->
+        <div class="thumb-nail-img-background">
+            <!-- header -->
+            <div class="vmac-color-variant-card-header">
+                <img src="/icn/expand-icn.svg" alt="" id="expand-icon">
+                <div class="asset-name-container">
+                    <p class="asset-name">Square-cut</p>
+                </div>
+                <img src="/icn/folder-download-icn.svg" alt="" id="downloadFolder-icon">
+            </div>
+        <!-- 🍇 -->
+          <div class="assetHolder">
+            <img
+              src="library-assets/suyarama/orange-h.png"
+              alt=""
+              class="i1"
+            />
+            <img
+              src="library-assets/suyarama/purple-h.png"
+              alt=""
+              class="i2"
+            />
+            <img
+              src="library-assets/suyarama/green-h.png"
+              alt=""
+              class="i3"
+            />
+            <img
+              src="library-assets/suyarama/cream-h.png"
+              alt=""
+              class="i4"
+            />
+            <img
+              src="library-assets/suyarama/orange-hp.png"
+              alt=""
+              class="i5"
+            />
+            <img
+              src="library-assets/suyarama/purple-hp.png"
+              alt=""
+              class="i6"
+            />
+            <img
+              src="library-assets/suyarama/green-hp.png"
+              alt=""
+              class="i7"
+            />
+            <img
+              src="library-assets/suyarama/cream-hp.png"
+              alt=""
+              class="i8"
+            />
+          </div>
+        </div>
+
+        <!-- -----------------------More options---------------------- -->
+        <div class="vmc-color-variant-card-more--options">
+            <p class="color-options-txt">Color options</p>
+        </div>
+        <!-- -----------------------Color options---------------------- -->
+        <div class="color-choices-container">
+          <div class="onred"></div>
+          <div class="ongreen"></div>
+          <div class="onbrown"></div>
+          <div class="onyellow"></div>
+          <div class="onpink"></div>
+          <div class="onblue"></div>
+          <div class="onblack"></div>
+          <div class="onwhite"></div>
+          <!-- -----------------------Color choice indicator---------------------- -->
+          <div class="color-choices-indicator">
+            <div class="stred"></div>
+            <div class="stgreen"></div>
+            <div class="stbrown"></div>
+            <div class="styellow"></div>
+            <div class="stpink"></div>
+            <div class="stblue"></div>
+            <div class="stblack"></div>
+            <div class="stwhite"></div>
+          </div>
+        </div>
+        
+        <!-- ------------------------ Action buttons---------------- -->
+        <div class="action-buttons">
+            <!-- 🍇 -->
+            <div class="download--btn--container">
+              <div class="downloadBtn">
+                <img class="a1" src="icn/download-icn.svg" alt="" />
+              </div>
+              <p>Download</p>
+            </div>
+            <!-- 🍇 -->
+            <div class="editor--btn--container">
+              <div class="editorBtn">
+                <img class="a2" src="icn/editor-icn.svg" alt="" />
+              </div>
+              <p>Editor</p>
+            </div>
+            <!-- 🍇 -->
+            <div class="youtube--btn--container">
+              <div class="youtubeBtn">
+                <a href="https://www.youtube.com/watch?v=xsaiG3p-IrI">
+                  <img
+                    class="a3"
+                    src="icn/youtube-icn.svg"
+                    alt="youtube button clicke to watch tutorial on how to use asset"
+                  /> 
+                </a>
+              </div>
+              <p>Tutorial</p>
+            </div>
+              <!-- 🍇 -->
+              <div class="share--btn--container">
+                  <div class="shareBtn">
+                      <img class="a4" src="icn/share-icn.png" alt="share button" />
+                  </div>
+                  <p>Share</p>
+              </div>
+              <!-- 🍇 -->
+          </div>
+          
+        </div>
+        <!-- --------------------Card edge blur effect----------------------- -->
+        <div class="vmacColorVariantCard-edge-blur-effect"></div>
+            </div>
+          </div>
+        <!-- xxxxxxxxxxxxxxxxx  card 3 ends here   xxxxxxxxxxxxxxxxxxxxx -->
+        <!-- >>>>>>>>>>>>>>>>> card 3  starts here <<<<<<<<<<<<<<<<<<<< -->
+          <div class="vmac-color-variant-card">
+            <!-- ------------------card content container------------------------------- -->
+            <div class="vmac-color-variant-card-body ">
+
+              <!-- --------------------------- image assets ----------------------------------------->
+        <div class="thumb-nail-img-background">
+            <!-- header -->
+            <div class="vmac-color-variant-card-header">
+                <img src="/icn/expand-icn.svg" alt="" id="expand-icon">
+                <div class="asset-name-container">
+                    <p class="asset-name">Notes</p>
+                </div>
+                <img src="/icn/folder-download-icn.svg" alt="" id="downloadFolder-icon">
+            </div>
+        <!-- 🍇 -->
+          <div class="assetHolder">
+            <img
+              src="library-assets/suyarama/n-o.png"
+              alt=""
+              class="i1"
+            />
+            <img
+              src="library-assets/suyarama/n-p.png"
+              alt=""
+              class="i2"
+            />
+            <img
+              src="library-assets/suyarama/n-g.png"
+              alt=""
+              class="i3"
+            />
+            <img
+              src="library-assets/suyarama/n-b.png"
+              alt=""
+              class="i4"
+            />
+            <img
+              src="library-assets/suyarama/n-bk.png"
+              alt=""
+              class="i5"
+            />
+            <img
+              src="library-assets/suyarama/n-i.png"
+              alt=""
+              class="i6"
+            />
+            <img
+              src="library-assets/suyarama/n-c.png"
+              alt=""
+              class="i7"
+            />
+            <img
+              src="library-assets/suyarama/n-p.png"
+              alt=""
+              class="i8"
+            />
+          </div>
+        </div>
+
+        <!-- -----------------------More options---------------------- -->
+        <div class="vmc-color-variant-card-more--options">
+            <p class="color-options-txt">Color options</p>
+        </div>
+        <!-- -----------------------Color options---------------------- -->
+        <div class="color-choices-container">
+          <div class="onred"></div>
+          <div class="ongreen"></div>
+          <div class="onbrown"></div>
+          <div class="onyellow"></div>
+          <div class="onpink"></div>
+          <div class="onblue"></div>
+          <div class="onblack"></div>
+          <div class="onwhite"></div>
+          <!-- -----------------------Color choice indicator---------------------- -->
+          <div class="color-choices-indicator">
+            <div class="stred"></div>
+            <div class="stgreen"></div>
+            <div class="stbrown"></div>
+            <div class="styellow"></div>
+            <div class="stpink"></div>
+            <div class="stblue"></div>
+            <div class="stblack"></div>
+            <div class="stwhite"></div>
+          </div>
+        </div>
+        
+        <!-- ------------------------ Action buttons---------------- -->
+        <div class="action-buttons">
+            <!-- 🍇 -->
+            <div class="download--btn--container">
+              <div class="downloadBtn">
+                <img class="a1" src="icn/download-icn.svg" alt="" />
+              </div>
+              <p>Download</p>
+            </div>
+            <!-- 🍇 -->
+            <div class="editor--btn--container">
+              <div class="editorBtn">
+                <img class="a2" src="icn/editor-icn.svg" alt="" />
+              </div>
+              <p>Editor</p>
+            </div>
+            <!-- 🍇 -->
+            <div class="youtube--btn--container">
+              <div class="youtubeBtn">
+                <a href="https://www.youtube.com/watch?v=xsaiG3p-IrI">
+                  <img
+                    class="a3"
+                    src="icn/youtube-icn.svg"
+                    alt="youtube button clicke to watch tutorial on how to use asset"
+                  /> 
+                </a>
+              </div>
+              <p>Tutorial</p>
+            </div>
+              <!-- 🍇 -->
+              <div class="share--btn--container">
+                  <div class="shareBtn">
+                      <img class="a4" src="icn/share-icn.png" alt="share button" />
+                  </div>
+                  <p>Share</p>
+              </div>
+              <!-- 🍇 -->
+          </div>
+          
+        </div>
+        <!-- --------------------Card edge blur effect----------------------- -->
+        <div class="vmacColorVariantCard-edge-blur-effect"></div>
+            </div>
+          </div>
+        <!-- xxxxxxxxxxxxxxxxx  card 3 ends here   xxxxxxxxxxxxxxxxxxxxx -->
             <!-- ----  empty-cards  --- -->
             <div class="empty-card"></div>
             <!-- ----  empty-cards  --- -->
@@ -159,6 +771,71 @@
         </section>
       </section>
     </main>
-    
-</body>
+    <!-- >>>>>>>> library mobile menu  <<<<<<<< -->
+     <nav id="library-mobile-menu">
+      <div id="library-mobile-menu-background-color">
+        <!-- tray1 -->
+        <div id="library-mobile-menu-icon-tray">
+
+          <div class="mobileMenuIconContainer">
+            <a class="mobileMenulink" href="">
+              <img class="mobileMenuIcon" src="icn/txt-holder-icn.png" />
+              <p class="mobilMenuIconsName">Labels</p>
+            </a>
+            <img id="labelsActive" src="icn/active-icn.png" alt="">
+          </div>
+          <div class="mobileMenuIconContainer">
+            <a class="mobileMenulink" href="">
+              <img class="mobileMenuIcon" src="icn/overlay-icn.png" />
+              <p class="mobilMenuIconsName">Frames</p>
+            </a>
+            <img id="framesActive" src="icn/active-icn.png" alt="">
+          </div>
+          <div class="mobileMenuIconContainer">
+            <a class="mobileMenulink" href="">
+              <img class="mobileMenuIcon" src="icn/background-icn.png" />
+              <p class="mobilMenuIconsName">Scenes</p>
+            </a>
+            <img id="scenesActive" src="icn/active-icn.png" alt="">
+          </div>
+          <div class="mobileMenuIconContainer">
+            <a class="mobileMenulink" href="/">
+              <img class="mobileMenuIcon" src="icn/meme-maker-icn.png" />
+              <p class="mobilMenuIconsName">Memer</p>
+            </a>
+            <img id="memerActive" src="icn/active-icn.png" alt="">
+          </div>
+          <div class="mobileMenuIconContainer">
+            <a class="mobileMenulink" href="">
+              <img class="mobileMenuIcon" src="icn/deco-icn.png" />
+              <p class="mobilMenuIconsName">Charms</p>
+            </a>
+            <img id="charmsActive" src="icn/active-icn.png" alt="">
+          </div>
+          <div class="mobileMenuIconContainer">
+            <a class="mobileMenulink" href="library-icons.html">
+              <img class="mobileMenuIcon" src="icn/icons-icn.png" />
+              <p class="mobilMenuIconsName">Icons</p>
+            </a>
+            <img id="iconsActive" src="icn/active-icn.png" alt="">
+          </div>
+          <div class="mobileMenuIconContainer">
+            <a class="mobileMenulink" href="">
+              <img class="mobileMenuIcon" src="icn/notes.png" />
+              <p class="mobilMenuIconsName">Notes</p>
+            </a>
+            <img id="notesActive" src="icn/active-icn.png" alt="">
+          </div>
+          <div class="mobileMenuIconContainer">
+            <a class="mobileMenulink" href="">
+              <img class="mobileMenuIcon" src="icn/Shapes.png" />
+              <p class="mobilMenuIconsName">Shapes</p>
+            </a>
+            <img id="shapesActive" src="icn/active-icn.png" alt="">
+          </div>
+          
+        </div>
+      </div>
+    </nav>
+  </body>
 </html>

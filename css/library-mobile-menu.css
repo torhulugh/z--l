@@ -1,0 +1,188 @@
+
+#library-mobile-menu {
+  background-color: #0d0c0d8a;
+  width: 100%;
+  height: 90px;
+  display: none;
+  position: fixed;
+  bottom: 0px;
+  margin: 0;
+  z-index: 900;
+  overflow: hidden;
+}
+#library-mobile-menu-background-color {
+  width: fit-content;
+  height: 100%;
+  border: 0.5px solid #55555505;
+  background-color: #161616;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-content: center;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
+  z-index: 200;
+  left: 0%;
+  backdrop-filter: blur(8px);
+  backdrop-filter: brightness() opacity(85%) blur(8px);
+  scrollbar-width: none; /* Firefox */
+  scroll-behavior: smooth;
+  overflow-x: auto;
+  overflow-y: hidden;
+
+}
+#mobileMenu-background-color ::webkit-scrollbar {
+  display: none;
+}
+#library-mobile-menu-icon-tray{
+  width: 100vw;
+  height: 80px;
+  display: flex;
+  position: relative;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 20px 0px 20px;
+  padding: 0px 0px 0px 299px;
+  z-index: 901;
+  gap: 5%;
+  
+}
+.mobileMenuIconContainer {
+  width: auto;
+  height: 22px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  z-index: 203;
+  transform: translateY(-7%);
+  gap: 1px;
+}
+.mobilMenuIconsName {
+  width: 65px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9em;
+  letter-spacing: 0.07rem;
+  margin: 0%;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+.mobileMenuIcon {
+  width: 22px;
+  height: 22px;
+  filter: drop-shadow(#000);
+}
+.mobileMenulink {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  color: #979292;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+  letter-spacing: 0.07rem;
+  margin: 0%;
+  margin-top: 10px;
+  text-decoration: none;
+  text-align: center;
+  align-content: center;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+#labelsActive{
+  display: flex;
+  position: relative;
+  width: 60px;
+}
+#framesActive, 
+#scenesActive, 
+#memerActive, 
+#charmsActive, 
+#notesActive, 
+#iconsActive, 
+#shapesActive {
+  display: none;
+  
+}
+
+/*=========  .7. MEDIA QUERIES ================= */
+/* <<<<<<<<>>>>>>>>  desktop2 <<<<<<<<>>>>>>>> */
+@media screen and (max-width: 1358px) {
+  #desktopMenu-icon-tray {
+    gap: 5%;
+  }
+}
+/* <<<<<<<<>>>>>>>>  desktop 3 <<<<<<<<>>>>>>>> */
+@media screen and (max-width: 1112px) {
+  #desktopMenu-icon-tray {
+    gap: 5px;
+  }
+}
+/* <<<<<<<<>>>>>>>>  desktop mini <<<<<<<<>>>>>>>> */
+@media screen and (max-width: 909px) {
+  /* ---- menu ------ */
+  #desktop-menu {
+    display: none;
+  }
+  #mobile-menu {
+    display: flex;
+  }
+  #mobileMenu-icon-tray1 {
+    justify-content: center;
+    gap: 80px;
+  }  
+}
+/* <<<<<<<<>>>>>>>> .7b. Tablet <<<<<<<<>>>>>>>> */
+@media screen and (max-width: 768px) {
+  #mobile-menu {
+    display: flex;
+  }
+  #mobileMenu-icon-tray1 {
+    justify-content: center;
+    gap: 80px;
+  }
+  #header-site-logo {
+    left: 20px;
+    top: 1px;
+  }
+  #header-site-logo-img {
+    width: 80px;
+  }
+  
+}
+/* <<<<<<<>>>>>>>> the inbetween mobile and tablet <<<<<<<<>>>>>>>> */
+@media screen and (max-width: 644px) {
+  #mobileMenu-icon-tray1 {
+    gap: 6%;
+  }
+}
+/* <<<<<<<<>>>>>>>> .7b. Mobile <<<<<<<<>>>>>>>> */
+@media screen and (max-width: 480px) {
+
+  #desktop-menu {
+    display: none;
+  }
+  #library-mobile-menu {
+    display: flex;
+  }
+  #mobileMenu-icon-tray1 {
+    gap: 4%;
+  }
+  nav {
+    padding: 0;
+  }
+  #header-site-logo {
+    left: 15px;
+  }
+  #header-site-logo-img {
+    width: 80px;
+  }
+}

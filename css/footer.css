@@ -1,0 +1,350 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(
+    130deg,
+    #56445c,
+    20%,
+    #1e1d21,
+    60%,
+    #213d41 70%
+  );
+  position: relative;
+  width: 95%;
+  height: fit-content;
+  margin: auto;
+  margin-top: 100px;
+  padding: 0px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  border-radius: 20px;
+}
+#footer--top--section {
+  display: flex;
+  position: relative;
+  width: 95%;
+  height: fit-content;
+  padding: 0px;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  border-radius: 20px;
+  gap: 70px;
+}
+#footer--top--leftside--section {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: fit-content;
+  margin: 50px 0px 20px 0px;
+  padding: 0 50px;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  border-radius: 20px;
+  gap: 200px;
+}
+#footer--top--rightside--section {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+  margin: 0;
+  padding: 0px 0px;
+  justify-content: flex-end;
+  align-items: flex-start;
+  align-content: center;
+}
+
+#footer-logo--nd--email--container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+  margin: 0;
+  padding: 0px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 20px;
+}
+footer p {
+  color: #eee;
+}
+footer a {
+  color: #eee;
+}
+#footer--pages {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: fit-content;
+  margin: 0;
+  padding: 0px;
+  align-items: flex-start;
+  align-content: center;
+  gap: 150px;
+}
+
+#footer--pages ul {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+  text-align: left;
+  margin: 0;
+  padding: 0px;
+  gap: 20px;
+}
+#footer li {
+  display: flex;
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+  margin: 0;
+  padding: 0px;
+  align-items: center;
+  align-content: center;
+}
+#footer--bottom--section {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: fit-content;
+  margin: 0;
+  padding: 0px 0px;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  align-content: center;
+  background-color: #302a39;
+  border-radius: 15px;
+}
+#footer--bottom--section p {
+  display: flex;
+  position: relative;
+  padding: 20px 85px;
+}
+#footer--social--media--cta {
+  display: flex;
+  position: relative;
+  padding: 0px 85px;
+  gap: 20px;
+}
+#footer--bottom--section img {
+  display: flex;
+  position: relative;
+  width: 30px;
+  height: 30px;
+}
+#footer--top--rightside--section {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+  margin: 0;
+  padding: 0px 50px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: center;
+  border-radius: 20px;
+  gap: 15px;
+}
+#footer--top--rightside--section p {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  font-size: 0.8rem;
+  width: 100%;
+  height: fit-content;
+  margin: 0;
+  padding: 0px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: center;
+  border-radius: 20px;
+  gap: 20px;
+}
+#footer--newsletter-signup--container {
+  display: flex;
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  border-radius: 20px;
+  gap: 15px;
+}
+#footer--newsletter-signup--container input {
+  background-color: #fff;
+  display: flex;
+  position: relative;
+  width: 250px;
+  height: 30px;
+  border: 1.5px solid #c4c5e9;
+  border-radius: 4px;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  gap: 10px;
+}
+#footer--newsletter-signup--container input:placeholder-shown {
+  color: #888;
+  padding: 0px 0px 0px 10px;
+}
+#footer--newsletter-signup--container button {
+  background-color: #515257;
+  display: flex;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 4px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+#footer--newsletter-signup--container button img {
+  background-color: #515257;
+  display: flex;
+  position: relative;
+  width: 15px;
+  height: 15px;
+  border: none;
+  border-radius: 4px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+/*=========  .7. MEDIA QUERIES ================= */
+/* <<<<<<<<>>>>>>>>  desktop2 <<<<<<<<>>>>>>>> */
+@media screen and (max-width: 1358px) {
+}
+/* <<<<<<<<>>>>>>>>  desktop 3 <<<<<<<<>>>>>>>> */
+@media screen and (max-width: 1112px) {
+}
+/* <<<<<<<<>>>>>>>>  desktop mini <<<<<<<<>>>>>>>> */
+@media screen and (max-width: 909px) {
+}
+/* <<<<<<<<>>>>>>>> .7b. Tablet <<<<<<<<>>>>>>>> */
+@media screen and (max-width: 768px) {
+}
+/* <<<<<<<>>>>>>>> the inbetween mobile and tablet <<<<<<<<>>>>>>>> */
+@media screen and (max-width: 644px) {
+}
+/* <<<<<<<<>>>>>>>> .7b. Mobile <<<<<<<<>>>>>>>> */
+@media screen and (max-width: 480px) {
+  footer {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border-radius: 0%;
+  }
+  #footer--top--section {
+    flex-direction: column;
+    padding: 0%;
+    justify-content: center;
+  }
+  #footer--top--leftside--section {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    margin: 50px 0px 20px 0px;
+    padding: 0 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+  }
+  #footer--top--rightside--section {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    margin: 0;
+    padding: 0px 0px;
+    justify-content: flex-end;
+    align-items: flex-start;
+    align-content: center;
+  }
+  #footer-logo--nd--email--container {
+  order: 2;
+}
+  #footer--pages {
+    order: 1;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    margin: 0;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+  #footer ul {
+    text-align: center;
+  }
+  #footer li {
+    font-size: 2rem;
+  }
+  #footer--bottom--section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    padding: 0%;
+    gap: 20px;
+    border-radius: 0%;
+    
+  }
+  #footer--bottom--section p {
+  display: flex;
+  position: relative;
+  padding: 0px 0px 0px 10px;
+}
+  #footer--newsletter-signup--container {
+  display: flex;
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  border-radius: 20px;
+  gap: 15px;
+
+}
+#footer--top--rightside--section {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+  margin: 0;
+  margin-bottom: 40px;
+  padding: 0px 50px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  border-radius: 20px;
+  gap: 15px;
+}
+}

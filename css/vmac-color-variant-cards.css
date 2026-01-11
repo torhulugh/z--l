@@ -175,33 +175,33 @@
   padding-right: 20px;
 }
 .onred {
-  background-color: #c32c32;
+  background-color: #ff7b00;
   border-radius: 60px;
   width: 25px;
   height: 10px;
   z-index: 3;
 }
 .ongreen {
-  background-color: #14a399;
+  background-color: #940e72;
   cursor: pointer;
 }
 .onbrown {
-  background-color: #b87f62;
+  background-color: #17be6b;
 }
 .onyellow {
-  background-color: #f9b530;
+  background-color: #ecd3a1;
 }
 .onpink {
-  background-color: #e7809f;
+  background-color: #ff7b00;
 }
 .onblue {
-  background-color: #5b75c6;
+  background-color: #940e72;
 }
 .onblack {
-  background-color: #0a0a0a;
+  background-color: #17be6b;
 }
 .onwhite {
-  background-color: rgb(255, 255, 255);
+  background-color: #ecd3a1;
 }
 .ongreen,
 .onbrown,

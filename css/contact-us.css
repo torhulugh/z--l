@@ -1,0 +1,321 @@
+
+#contactUs--txt {
+    color: #DA37DA;
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    padding: 0px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 15px;
+}
+#contactUs--txt h1{
+    color: #DA37DA;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    margin: 0;
+    padding: 0px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+#contactUs--txt p {
+    color: #D8C1D8;
+    font-size: 1.2rem;
+    letter-spacing: 0.5px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    margin: 0;
+    padding: 0px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+#contactUs--form--container {
+  font-size: 1rem;
+  background-color: #181616;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+  margin-top: 20px;
+  padding: 40px;
+  border: 0.01px dashed #DA37DA;
+  border-radius: 20px;
+  align-items: center;
+  align-content: center;
+  justify-content: flex-start;
+}
+
+#contactUs--form--container label {
+  color: #999;
+  font-size: 1rem;
+  display: flex;
+  position: relative;
+  width: 500px;
+  height: 50px;
+  
+  margin: auto;
+  padding: 20;
+  align-items: center;
+  align-content: center;
+  justify-content: flex-start;
+}
+#contactUs--form--container input {
+  color: #59e497;
+  font-size: 1rem;
+  display: flex;
+  position: relative;
+  width: 500px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 0.5px solid #2b2a2a7c;
+  background-image: linear-gradient(
+    179deg,
+    #252323 1%,
+    #0c0d0e20 35%,
+    #25242420 76%,
+    #030303c4 100%
+  );
+  margin: auto;
+  padding-left: 10px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+#contactUs--form--container input:focus {
+  color: #fff;
+  outline: 1px solid #c947ea;
+}
+textarea:focus {
+  /* padding: 0px 0px 0px 10px; */
+  color: #c947ea;
+  outline: 1px solid #c947ea;
+}
+textarea::placeholder {
+  color: #444;
+  margin-left: 10px;
+}
+textarea{
+  display: flex;
+  color: #59e497;
+  position: relative;
+  border: 0.01px solid #2b2a2a7c;
+  width: 500px;
+  height: 150px;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 0.01px solid #2b2a2a7c;
+  background-image: linear-gradient(
+    179deg,
+    #252323 1%,
+    #0c0d0e20 16%,
+    #25242420 86%,
+    #030303c4 100%
+  );
+  margin: 0;
+  padding: 20px 0px 0px 20px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  font-size: 1rem;
+  
+}
+#submit-btn-container {
+  display: flex;
+  position: relative;
+  width: 500px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 0.01px solid #2b2a2a7c;
+  margin: auto;
+  margin-top: 40px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+#contactUs--form--container button {
+  color: #fff;
+  font-size: 1rem;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 0.01px solid #2b2a2a7c;
+  background-image: linear-gradient(
+    179deg,
+    #F7F7F7 1%,
+    #d1d0d000 35%,
+    #b3b3b300 76%,
+    #FFFFFF 100%
+  );
+  opacity: 50%;
+  margin: auto;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  z-index: 2;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+}
+
+#btn--effect1 {
+  color: #fff;
+  font-size: 1rem;
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: transparent;
+  background-image: linear-gradient(
+    150deg,
+    #1ED760 1%,
+    #107132 35%
+  );
+  margin: auto;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  z-index: 1;
+}
+/*=========  .7. MEDIA QUERIES ================= */
+/* <<<<<<<<>>>>>>>>  desktop2 <<<<<<<<>>>>>>>> */
+@media screen and (max-width: 1358px) {
+}
+/* <<<<<<<<>>>>>>>>  desktop 3 <<<<<<<<>>>>>>>> */
+@media screen and (max-width: 1112px) {
+}
+/* <<<<<<<<>>>>>>>>  desktop mini <<<<<<<<>>>>>>>> */
+@media screen and (max-width: 909px) {
+}
+/* <<<<<<<<>>>>>>>> .7b. Tablet <<<<<<<<>>>>>>>> */
+@media screen and (max-width: 768px) {
+  
+}
+/* <<<<<<<>>>>>>>> the inbetween mobile and tablet <<<<<<<<>>>>>>>> */
+@media screen and (max-width: 644px) {
+}
+/* <<<<<<<<>>>>>>>> .7b. Mobile <<<<<<<<>>>>>>>> */
+@media screen and (max-width: 480px) {
+  
+#contactUs--txt {
+    font-size: 2rem;
+    margin-top: 50px;
+    gap: 15px;
+}
+#contactUs--txt h1{
+    color: #DA37DA;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    margin: 0;
+    padding: 0px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+#contactUs--txt p {
+    color: #D8C1D8;
+    font-size: 1.2rem;
+    letter-spacing: 0.5px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 90%;
+    height: fit-content;
+    margin: 0;
+    padding: 0px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+#contactUs--form--container {
+  font-size: 1rem;
+  background-color: #181616;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+  margin-top: 20px;
+  padding: 20px;
+  border: 0.01px dashed #DA37DA;
+  border-radius: 20px;
+  align-items: center;
+  align-content: center;
+  justify-content: flex-start;
+}
+
+#contactUs--form--container label {
+  color: #999;
+  font-size: 1rem;
+  display: flex;
+  position: relative;
+  width: fit-content;
+  height: 50px;
+  margin: auto;
+  padding: 20;
+  align-items: center;
+  align-content: center;
+  text-align: left;
+  justify-content: flex-start;
+}  
+textarea, #contactUs--form--container input, #submit-btn-container{
+  width: 300px;
+  padding: 0%;
+  margin-left: 0;
+  margin-right: 0;
+
+}
+
+#contactUs--form--container button {
+  color: #fff;
+  font-size: 1rem;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 0.01px solid #2b2a2a7c;
+  background-image: linear-gradient(
+    179deg,
+    #F7F7F7 1%,
+    #d1d0d000 35%,
+    #b3b3b300 76%,
+    #FFFFFF 100%
+  );
+  opacity: 50%;
+  margin: auto;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  z-index: 2;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+}
+
+
+  
+}
