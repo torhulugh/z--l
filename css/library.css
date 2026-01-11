@@ -1,0 +1,216 @@
+/* --------------------- library--content--container -------------------------------------- */
+#library--content--container{
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: auto;
+  gap: 30px;
+
+}
+/* =============================== library--menu--section =================================== */
+#library--menu--section {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 250px;
+  gap: 0px;
+}
+
+
+#library--menu--section
+ a {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-top: 170px;
+}
+#library-menu-container{
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  border-right: 1px solid black;
+  gap: 0px;
+}
+.menu-option-container {
+  display: flex;
+  position: relative;
+  width: fit-content;
+  height: 60px;
+  padding: 5px 30px 5px 30px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.menu-selector-txtholder,
+/* .menu-selector-overlay, */
+.menu-selector-backgrounds,
+.menu-selector-meme,
+.menu-selector-deco,
+.menu-selector-notes,
+.menu-selector-icons, 
+.menu-selector-shapes {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  height: 100%;
+  z-index: 1000;
+}
+.menu-selector-overlay {
+  display: flex;
+  position: absolute;
+  top: -15px;
+  left: -16px;
+  width: 200px;
+  height: 90px;
+  z-index: 1000;
+}
+
+.menu-category-container {
+  color: #fff;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.menu-icn {
+  display: flex;
+  position: relative;
+  width: 30px;
+  height: 30px;
+}
+
+.menu-category-name {
+  display: flex;
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0%;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+}
+/* ==================s library--body ======================== */
+#library--body {
+  display: flex;
+  position: relative;
+  width: 80%;
+  max-width: 80vw;
+  flex-wrap: wrap;
+  height: fit-content;
+  align-items: center;
+  align-content: flex-start;
+  justify-content: flex-start;
+  margin: 0;
+  gap: 30px;
+}
+
+/* ------------------- Library assets card----------- */
+/* .twin-cards-container {
+  position: relative;
+  display: flex;
+  max-width: 80vw;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-content: flex-start;
+  align-self:center ;
+  margin: 0px;
+  gap: 30px
+} */
+
+
+
+
+
+.empty-card {
+  border-radius: 30px;
+  background-color: transparent;
+  width: 270px;
+  height: 50px;
+  display: flex;
+  position: relative;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=========  .7. MEDIA QUERIES ================= */
+/* <<<<<<<<>>>>>>>>  desktop2 <<<<<<<<>>>>>>>> */
+@media screen and (max-width: 1358px) {
+}
+/* <<<<<<<<>>>>>>>>  desktop 3 <<<<<<<<>>>>>>>> */
+@media screen and (max-width: 1112px) {
+}
+/* <<<<<<<<>>>>>>>>  desktop mini <<<<<<<<>>>>>>>> */
+@media screen and (max-width: 909px) {
+}
+/* <<<<<<<<>>>>>>>> .7b. Tablet <<<<<<<<>>>>>>>> */
+@media screen and (max-width: 768px) {
+  
+}
+/* <<<<<<<>>>>>>>> the inbetween mobile and tablet <<<<<<<<>>>>>>>> */
+@media screen and (max-width: 644px) {
+}
+/* <<<<<<<<>>>>>>>> .7b. Mobile <<<<<<<<>>>>>>>> */
+@media screen and (max-width: 480px) {
+   html, body{
+    width: 100%;
+    overflow-x: hidden;
+  }
+#library--menu--section {
+  display: none;
+}
+#library--body {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: fit-content;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin: 0;
+  overflow: hidden;
+}
+#library--content--container{
+  margin-top: 50px;
+  width: 100%;
+  height: fit-content;
+  gap: 0px;
+  overflow: hidden;
+
+}
+}
